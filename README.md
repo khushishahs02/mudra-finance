@@ -27,7 +27,7 @@ It gives you one clean, unified place to:
 - Work toward financial goals
 - Manage recurring expenses
 
-The name *MUDRA* is a deliberate choice — it means gesture, currency, and intention all at once. Managing money should feel intentional, not chaotic.
+The name *MUDRA* is a deliberate choice — it means gesture, currency, and intention all at once(basically my sister's name!). Managing money should feel intentional, not chaotic.
 
 ---
 
@@ -339,9 +339,7 @@ MUDRA is her answer to that problem.
 
 ---
 
-## A Note from Khushi
-
-*In her own words:*
+## Author's note
 
 ---
 
@@ -382,13 +380,3 @@ I'd love to hear from you — whether it's a bug report, a feature idea, or just
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<div align="center">
-
-*Built with curiosity · Powered by coffee · Debugged at 2AM*
-
-**₹ MUDRA — Because your finances deserve order.**
-
-</div>
