@@ -295,7 +295,10 @@ Enable **Row Level Security** on all tables and create policies so users can onl
 
 ## Deployment
 
-The app is built for deployment on **Vercel** (deployment in progress).
+The app is live and deployed on **Vercel**.
+
+🌐 **[https://mudra-finance-g7rp.vercel.app](https://mudra-finance-g7rp.vercel.app)**
+
 
 **When ready to deploy:**
 
@@ -325,14 +328,13 @@ vercel
 
 ---
 
-## About the Developer
+## About me
 
 **Khushi Shah**
 *Creator of MUDRA*
+The idea came from a personal frustration — money was disappearing without explanation, and every existing finance app felt either too complex or too generic.
 
-Khushi is an 18-year-old developer who built MUDRA as her first full-stack web application. The idea came from a personal frustration — money was disappearing without explanation, and every existing finance app felt either too complex or too generic.
-
-MUDRA is her answer to that problem.
+MUDRA is my answer to that problem.
 
 📧 [khushishahs.2006@gmail.com](mailto:khushishahs.2006@gmail.com)
 🐙 [github.com/khushishahs02](https://github.com/khushishahs02)
