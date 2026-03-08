@@ -6,6 +6,8 @@
 *Because money disappears faster than expected — and Excel sheets are not fun.*
 
 🌐 **Live App → [mudra-finance.vercel.app](https://mudra-finance-g7rp.vercel.app)**
+📱 **Works on mobile, tablet, and desktop**
+
 
 [![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5-646cff?style=flat-square&logo=vite)](https://vitejs.dev)
