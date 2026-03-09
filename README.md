@@ -13,6 +13,8 @@
 [![Vite](https://img.shields.io/badge/Vite-5-646cff?style=flat-square&logo=vite)](https://vitejs.dev)
 [![Supabase](https://img.shields.io/badge/Supabase-Auth%20%2B%20DB-3ecf8e?style=flat-square&logo=supabase)](https://supabase.com)
 [![Live](https://img.shields.io/badge/Live-mudra--finance-black?style=flat-square&logo=vercel)](https://mudra-finance-g7rp.vercel.app)
+![Mobile](https://img.shields.io/badge/Mobile-Responsive-4ade9a?style=flat-square&logo=smartphone)](https://mudra-finance-g7rp.vercel.app)
+
 
 </div>
 
