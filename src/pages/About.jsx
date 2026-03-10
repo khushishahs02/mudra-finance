@@ -234,17 +234,17 @@ export default function About() {
             boxShadow: '0 8px 40px rgba(0,0,0,0.25)',
           }}>
             <p style={{ fontSize: 15, color: '#9898b8', lineHeight: 1.9, margin: '0 0 16px' }}>
-              I started this project to get hands-on experience. I didn't know much going in — and that was the whole point. MUDRA pushed me to learn things I would never have picked up from a course alone.
+              I built MUDRA from scratch — the concept, the design, the user experience, and every decision about what this app should be and feel like. I wanted something that solved a real problem I was facing personally, so I designed it the way I wanted to use it.
             </p>
-            <p style={{ fontSize: 15, color: '#9898b8', lineHeight: 1.9, margin: '0 0 24px' }}>
-              I learned how to work with <span style={{ color: '#4ade9a', fontWeight: 600 }}>Supabase</span> for authentication and databases, how to handle <span style={{ color: '#38bdf8', fontWeight: 600 }}>API keys</span> and connect services securely, how to integrate <span style={{ color: '#fbbf24', fontWeight: 600 }}>Google OAuth</span> and wire up a live webhook to Google Sheets, how to build <span style={{ color: '#a78bfa', fontWeight: 600 }}>physics-based animations</span> with requestAnimationFrame, and how to take a project from concept all the way to a deployed website on <span style={{ color: '#d4a94a', fontWeight: 600 }}>Vercel</span>.
+            <p style={{ fontSize: 15, color: '#9898b8', lineHeight: 1.9, margin: '0 0 16px' }}>
+              The technical side pushed me to learn things I had never touched before. I worked with <span style={{ color: '#4ade9a', fontWeight: 600 }}>Supabase</span> for authentication and databases with row-level security, set up <span style={{ color: '#fbbf24', fontWeight: 600 }}>Google OAuth</span> and connected a live webhook to Google Sheets, built <span style={{ color: '#a78bfa', fontWeight: 600 }}>physics-based animations</span> from scratch using requestAnimationFrame, managed <span style={{ color: '#38bdf8', fontWeight: 600 }}>API keys</span> and environment variables securely, and deployed a production website on <span style={{ color: '#d4a94a', fontWeight: 600 }}>Vercel</span>.
             </p>
             <p style={{ fontSize: 15, color: '#9898b8', lineHeight: 1.9, margin: 0 }}>
-              The idea and design are entirely mine. The implementation was built with the help of <span style={{ color: '#d4a94a', fontWeight: 600 }}>Claude AI</span> — and honestly, I'm a different person after making this app.
+              For parts of the UI implementation I used an AI coding assistant — but every feature, every design choice, and the entire vision behind MUDRA is mine. I'm a different person after building this.
             </p>
 
             <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 24 }}>
-              {['React + Vite','Supabase','Google OAuth','Vercel','Google Sheets API','Claude AI','Physics Animations','Row Level Security'].map(tag => (
+              {['React + Vite','Supabase','Google OAuth','Vercel','Google Sheets API','Physics Animations','Row Level Security'].map(tag => (
                 <span key={tag} style={{
                   padding: '4px 12px', borderRadius: 20,
                   background: 'rgba(212,169,74,0.08)',
@@ -258,6 +258,30 @@ export default function About() {
         </FadeIn>
 
         <HR />
+
+        {/* ══ SECTION 5: CLOSING QUOTE ══ */}
+        <FadeIn delay={0.1}>
+          <div style={{
+            textAlign: 'center', padding: 'clamp(36px,5vw,56px) 24px',
+            background: 'linear-gradient(180deg,transparent,rgba(212,169,74,0.025),transparent)',
+            border: '1px solid rgba(212,169,74,0.07)', borderRadius: 20,
+            marginBottom: 60,
+          }}>
+            <div style={{ width: 32, height: 1, margin: '0 auto 26px', background: 'linear-gradient(90deg,transparent,#d4a94a,transparent)' }} />
+            <p style={{
+              fontSize: 'clamp(17px,2.2vw,23px)',
+              fontFamily: "'Cormorant Garamond',Georgia,serif",
+              fontStyle: 'italic', fontWeight: 500,
+              color: '#e8dcc8', lineHeight: 1.65, margin: '0 0 16px',
+            }}>
+              "Financial clarity should not be complicated."
+            </p>
+            <p style={{ fontSize: 11, letterSpacing: '4px', textTransform: 'uppercase', color: 'rgba(212,169,74,0.4)', fontFamily: 'monospace', margin: 0 }}>
+              — Khushi Shah, Creator of MUDRA
+            </p>
+            <div style={{ width: 32, height: 1, margin: '26px auto 0', background: 'linear-gradient(90deg,transparent,#d4a94a,transparent)' }} />
+          </div>
+        </FadeIn>
 
         {/* ══ SECTION 6: CONTACT ══ */}
         <FadeIn delay={0.1}>
