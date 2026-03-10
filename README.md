@@ -81,6 +81,14 @@ A dedicated page introducing the developer, the motivation behind MUDRA, and con
 
 ---
 
+## Screenshots
+
+### Landing Page
+![Landing Page](public/Landing-page.png)
+
+### Dashboard
+![Dashboard](public/Dashboard.png)
+
 ## Workflow Diagrams
 
 ### 1 — User Authentication Flow
