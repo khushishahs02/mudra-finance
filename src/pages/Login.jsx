@@ -15,12 +15,12 @@ function getPasswordStrength(pwd) {
     sym:   /[^A-Za-z0-9]/.test(pwd),
   }
   const score = [len >= 8, len >= 12, has.upper, has.lower, has.num, has.sym].filter(Boolean).length
-  if (score <= 1) return { color: '#ef4444', bar: '16%',  msg: "Your ex could guess this 😬" }
-  if (score === 2) return { color: '#f97316', bar: '33%',  msg: "Even your roommate might crack this 🤔" }
-  if (score === 3) return { color: '#fbbf24', bar: '50%',  msg: "Getting there. Your bank deserves better 💸" }
-  if (score === 4) return { color: '#84cc16', bar: '72%',  msg: "Solid! Your vault is taking shape 🔒" }
-  if (score === 5) return { color: '#22c55e', bar: '88%',  msg: "Now that's a vault 💪" }
-  return            { color: '#4ade9a', bar: '100%', msg: "Even hackers need chai for this one ☕" }
+  if (score <= 1) return { color: '#ef4444', bar: '16%',  msg: "Very weak — add uppercase letters, numbers, or symbols" }
+  if (score === 2) return { color: '#f97316', bar: '33%',  msg: "Weak — consider a longer or more complex password" }
+  if (score === 3) return { color: '#fbbf24', bar: '50%',  msg: "Fair — add a mix of characters to strengthen it" }
+  if (score === 4) return { color: '#84cc16', bar: '72%',  msg: "Good — your password meets basic security standards" }
+  if (score === 5) return { color: '#22c55e', bar: '88%',  msg: "Strong — this password is well protected" }
+  return            { color: '#4ade9a', bar: '100%', msg: "Excellent — maximum password strength achieved" }
 }
 
 /* ─────────────────────────────────────────
@@ -597,7 +597,7 @@ function LeftPanel() {
                 <div style={{ height: '3px', background: '#1a1a2e', borderRadius: '2px', marginTop: '8px', overflow: 'hidden' }}>
                   <div style={{ height: '100%', borderRadius: '2px', width: strength.bar, background: strength.color, transition: 'width 0.4s ease, background 0.4s ease' }} />
                 </div>
-                <p style={{ fontSize: '11px', marginTop: '5px', color: strength.color, fontStyle: 'italic' }}>{strength.msg}</p>
+                <p style={{ fontSize: '11px', marginTop: '5px', color: strength.color }}>{strength.msg}</p>
               </>
             )}
           </div>
